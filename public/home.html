@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidenav">
+        <button class="menu-item" onclick="window.location.href='/home.html'"><img src="icons/instagram.png" alt="Instagram" width="100" height="auto"></button>
+        <button class="menu-item" onclick="window.location.href='/home.html'"><img src="icons/home.png" alt="Home" class="menu-icon"><strong>Home</strong></button>
+        <button class="menu-item"><img src="icons/search.png" alt="Search" class="menu-icon">Search</button>
+        <button class="menu-item"><img src="icons/explore.png" alt="Explore" class="menu-icon">Explore</button>
+        <button class="menu-item"><img src="icons/reels.png" alt="Reels" class="menu-icon">Reels</button>
+        <button class="menu-item"><img src="icons/messages.png" alt="Messages" class="menu-icon">Messages</button>
+        <button class="menu-item"><img src="icons/notifications.png" alt="Notifications" class="menu-icon">Notifications</button>
+        <button class="menu-item"><img src="icons/create.png" alt="Create" class="menu-icon">Create</button>
+        <button class="menu-item"><img src="icons/dashboard.png" alt="Dashboard" class="menu-icon">Dashboard</button>
+        <button class="menu-item" onclick="window.location.href='/index.html'">
+            <img src="icons/profile.png" alt="Profile" class="menu-icon">Profile
+        </button>
+        <button class="menu-item"><img src="icons/ai_studio.png" alt="AI Studio" class="menu-icon">AI Studio</button>
+        <button class="menu-item"><img src="icons/threads.png" alt="Threads" class="menu-icon">Threads</button>
+        <button class="menu-item"><img src="icons/more.png" alt="More" class="menu-icon">More</button>
+    </div>
+    <div class="home-container">
+        <!-- Main Feed -->
+        <div class="main-feed">
+            <!-- Stories -->
+            <div class="stories">
+                <div class="story-item"><img src="icons/story1.png" alt="Story"><span>user1</span></div>
+                <div class="story-item"><img src="icons/story2.png" alt="Story"><span>user2</span></div>
+                <div class="story-item"><img src="icons/story3.png" alt="Story"><span>user3</span></div>
+                <div class="story-item"><img src="icons/story4.png" alt="Story"><span>user4</span></div>
+            </div>
+    
+            <!-- Posts -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="profile.jpg" alt="Profile">
+                    <span class="post-user">sid.malireddi</span>
+                </div>
+                <img src="posts/post1.png" alt="Post" class="post-image">
+                <div class="post-actions">
+                    <img src="icons/like.png" alt="Like">
+                    <img src="icons/comment.png" alt="Comment">
+                    <img src="icons/share.png" alt="Share">
+                </div>
+                <div class="post-caption"><strong>sid.malireddi</strong> Enjoying the sunset! 🌅</div>
+            </div>
+        </div>
+    
+        <!-- Right Panel -->
+        <div class="right-panel">
+            <div class="suggestions">
+                <h3>Suggested for you</h3>
+                <div class="suggestion">
+                    <img src="icons/user1.png" alt="User">
+                    <span class="suggestion-user">user123</span>
+                    <button class="follow-btn">Follow</button>
+                </div>
+                <div class="suggestion">
+                    <img src="icons/user2.png" alt="User">
+                    <span class="suggestion-user">friend456</span>
+                    <button class="follow-btn">Follow</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
